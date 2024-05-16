@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes changebackground{
+            0%{background-image: url("wallpaper/bbg1.jpeg");}
+            20%{background-image: url("wallpaper/bbg2.jpeg");}
+            40%{background-image: url("wallpaper/bbg3.jpeg");}
+            60%{background-image: url("wallpaper/bbg4.jpeg");}
+            80%{background-image: url("wallpaper/bbg5.jpg");}
+            100%{background-image: url("wallpaper/bbg5.jpeg");}
+        }
+        body{
+            background-image: url("wallpaper/bbg1.jpeg");
+            background-repeat: no-repeat;
+            background-size: 500px,500px;
+            animation-name: changebackground;
+            animation-duration: 15s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            border-image: fill;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
